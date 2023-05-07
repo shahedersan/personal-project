@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start home */
+nav ul{
+    list-style: none;
+    text-align: right;
+    font-size: 30px;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px ;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+     color: #FF6464;
+}
+.section1{
+  padding: 150px 110px;
+}
+.section1 p{
+    padding: 25px 0;
+}
+.image{
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    left: 900px;
+    top: 210px;
+    box-shadow: -5px 15px #EDF7FA;
+    border-radius: 211px;
+}
+button{
+    border: 1px red solid;
+    padding: 7px;
+    background-color:#FF6464;
+    color:white;
+    border-radius: 2px;
+}
+.section2{
+    background-color: #EDF7FA;
+    display:flex;
+    justify-content: space-between;
+    padding: 90px;
+    gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.section22{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    width: 48%;
+  padding: 10px;
+  
+}
+h1{
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+.section3{
+    padding: 80px 90px;
+}
+
+.img2{
+    border-radius: 6px;
+    margin-right: 10px;
+}
+hr{
+    border: 1px solid #E0E0E0;
+    width: 681px;
+    height: 0px;
+    margin: 15px;
+
+}
+.buto {
+    background: #142850;
+border-radius: 16px;
+color: white;
+border: 1px #142850 solid ;
+}
+
+.part{
+    display: flex;
+}
+
+footer{
+    
+    text-align: center;
+    padding: 20px;
+    
+}
+i{
+   font-size: 35px;
+   margin: 20px;
+}
+/* end home */
+/* start Blog */
+.Blog{
+    padding: 100px;
+    color: #21243D;
+}
+.content{
+    padding: 20px;
+}
+/* end Blog */
+/* start work */
+.work{
+    padding: 50px;
+    margin: 30px;
+    color:#21243D ;
+    margin: 40px;
+}
+/* .work1 img{
+  padding: 20px;
+} */
+.img1{
+    margin-right: 20px;
+}
+.w1{
+    display: flex;
+    padding: 20px;
+}
+/* end work */
+/* start workdetail */
+.workdetail{
+    /* padding: 100px;
+    margin: 50px 150px; */
+    margin-right: 40px;
+}
+
